@@ -1,0 +1,107 @@
+body {
+    font-family: Helvetica, sans-serif;
+    background-color: rgb(78, 130, 234);
+    color: #333;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f5d742;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: red;
+    background-color: aliceblue;
+    border-radius: 8px;
+    padding:10px 0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#rounds-input {
+    margin: 20px 0;
+}
+
+#rounds {
+    margin-right: 10px;
+}
+
+.game-options {
+    margin: 20px 0;
+}
+
+
+.game-options {
+    margin: 20px 0;
+}
+
+.option {
+    background-color: rgb(255, 255, 255);
+    border: none;
+    padding: 15px 30px;
+    margin: 10px;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 5px;
+    color: rgb(51, 0, 255);
+    transition: background-color 0.3s;
+}
+
+.option:hover {
+    background-color: red;
+    color: white;
+}
+
+table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #ffffff;
+}
+
+.popup {
+    display: none;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    border-radius: 8px;
+}
+
+#close-popup {
+    background-color: red;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    color: white;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+#play-again {
+    background-color: blue;
+    border: none;
+    padding: 15px 30px;
+    font-size: 18px;
+    cursor: pointer;
+    color: white;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+#play-again:hover {
+    background-color: darkblue;
+}
